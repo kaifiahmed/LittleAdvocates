@@ -6,7 +6,12 @@ flex-direction:column;
 justify-content:center;
 align-tems:center;
 margin: 0 auto;
-width: 50vh;
+// width: 50%;
+
+@media (min-width:412px){
+    width: 50vh;
+
+}
 
 .title{ 
     margin:60px auto;

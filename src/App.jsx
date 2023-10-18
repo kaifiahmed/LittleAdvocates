@@ -9,7 +9,7 @@ function App() {
               <Route path='/'
               element={<StartingPage/>}/>
           </Routes>
-    </BrowserRouter>
+    `</BrowserRouter>
   
   );
 }
