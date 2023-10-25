@@ -12,7 +12,7 @@ const StartingPage = () => {
       </div>
       <div className='text_container'>
         <div><p>{text.first}</p>
-        <p>{text.secound}</p>
+        <p>{text.second}</p>
         <p>{text.third}</p>
         </div>
         <div><a>Start Now</a></div>

@@ -7,9 +7,12 @@ justify-content:center;
 align-tems:center;
 margin: 0 auto;
 // width: 50%;
+height: 90vh;
+
 
 @media (min-width:412px){
     width: 50vh;
+    height: 90vh;
 
 }
 
