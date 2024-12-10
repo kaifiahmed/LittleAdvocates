@@ -1,0 +1,85 @@
+/* Header Styles */
+.header {
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Header Menu List */
+.header ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.header ul .list {
+  list-style: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.header ul .list .icon {
+  font-size: 1.5em;
+  color: #222327;
+  transition: transform 0.3s ease;
+}
+
+.header ul .list.website-name {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222327;
+}
+
+/* Slider Menu */
+.slider {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 250px;
+  height: 100%;
+  background: #29fd53;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.slider.open {
+  left: 0;
+}
+
+.slider ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.slider ul li {
+  margin: 10px 0;
+}
+
+.slider ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+
+.slider .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
