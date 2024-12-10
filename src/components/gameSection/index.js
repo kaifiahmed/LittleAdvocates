@@ -1,15 +1,27 @@
-import React from 'react'
-import { Wraper} from './style'
+import React from "react";
+import { Wraper } from "./style.js";
 
-const GamePage = () => {
+const GameSection = () => {
   return (
     <Wraper>
-      <div className='first_game'>hi this first game</div>
-      <div className='second_game'>this is second game</div>
-      <div className='third_game'>this is third game </div>
-      <div className='forth_game'>this fourth game </div>
+      <div className="first_game">
+        <div className="content-overlay"></div>
+        <div className="content-text">First Game</div>
+      </div>
+      <div className="second_game">
+        <div className="content-overlay"></div>
+        <div className="content-text">Second Game</div>
+      </div>
+      <div className="third_game">
+        <div className="content-overlay"></div>
+        <div className="content-text">Third Game</div>
+      </div>
+      <div className="forth_game">
+        <div className="content-overlay"></div>
+        <div className="content-text">Forth Game</div>
+      </div>
     </Wraper>
-  )
-}
+  );
+};
 
-export default GamePage
+export default GameSection;

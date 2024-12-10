@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .community-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .slider {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .story-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .story-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .story-feed,
+  .event-feed {
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .story-item,
+  .event-item {
+    margin-bottom: 15px;
+  }
+  
+  .event-item span {
+    display: block;
+    margin-top: 5px;
+    color: gray;
+  }
+  

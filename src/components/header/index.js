@@ -20,9 +20,10 @@ const Header = () => {
           &times;
         </button>
         <ul>
-          <li><a href="#">Option 1</a></li>
-          <li><a href="#">Option 2</a></li>
-          <li><a href="#">Option 3</a></li>
+          <li><a href="#">My Profile</a></li>
+          <li><a href="#">Parent</a></li>
+          <li><a href="#">Organization</a></li>
+          <li><a href="#">Feedback</a></li>
         </ul>
       </div>
       
