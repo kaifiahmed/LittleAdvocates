@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #06021b;
+}
+
+.footer-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.navigation {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: 70px;
+  background: linear-gradient(45deg, #2196f3, #e91e63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.navigation ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.navigation ul li {
+  position: relative;
+  width: 100px;
+  list-style: none;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.navigation ul li .button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navigation ul li .button .icon {
+  font-size: 1.5em;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navigation ul li .button .text {
+  font-size: 0.75em;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.navigation ul li.active .button .icon {
+  color: #06021b;
+}
+
+.navigation ul li.active .button .text {
+  color: #06021b;
+}
+
+.navigation .indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 70px;
+  background: #fff;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
