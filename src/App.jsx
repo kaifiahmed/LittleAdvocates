@@ -7,7 +7,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import ShortsSection from "./components/shortsSection";
 import CommunityPage from "./components/communitypage";
-
+import Loginpage from "./components/loginpage";
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
         <Route path="/footer" element={<Footer />} />
         <Route path="/shorts" element={<ShortsSection />} /> 
         <Route path="/community" element={<CommunityPage />} />
+        <Route path="/login" element={<Loginpage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
