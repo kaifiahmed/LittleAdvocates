@@ -20,7 +20,7 @@ export const Wraper = styled.div`
   }
 
   div:hover {
-    transform: scale(1.05); /* Slight zoom-in effect */
+    // transform: scale(1.05); /* Slight zoom-in effect */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* More prominent shadow on hover */
   }
 

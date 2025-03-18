@@ -1,23 +1,16 @@
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+import styled from "styled-components";
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #fff;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+const Wrapper = styled.div`
 
-main {
-  width: 90%;
-  max-width: 500px;
+max-width:430px;
+height: 800px;
+margin:50px auto;
+
+#container{
+   position:fixed;
+   top:50px;
+   height: 800px;
+width: 430px;
 }
 
 .card {
@@ -46,3 +39,6 @@ main {
   margin-left: 20px;
   flex-grow: 1;
 }
+
+`
+export default Wrapper

@@ -4,16 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #000;
-  color: #fff;
-  overflow: hidden;
-}
 
 /* App Container */
 #ig_app {
-  height: 100vh;
+  border-radius: 6%;
+  height: 85vh;
+  width: 45vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -60,7 +56,7 @@ body {
 /* Reels Info Section */
 #reels_info {
   position: absolute;
-  bottom: 80px;
+  bottom: 4px;
   left: 10px;
   z-index: 2;
 }
